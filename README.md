@@ -19,6 +19,25 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 - Generate Session via <a href="https://repl.it/@mrismanaziz/stringen?lite=1&outputonly=1">Repl</a>
 - Generate Session via <a href="https://t.me/StringManRobot">Telegram String Generation Bot</a>
 
+## INSTALASI
+<details>
+<summary><b>DEPLOY TO VPS</b></summary>
+
+> $ git clone https://github.com/hdiiofficial/PiPyro-Userbot
+
+> $ cd PiPyro-Userbot
+
+> $ pip3 install -r requirements.txt
+
+> $ cp sample_config.env config.env
+
+> $ nano config.env
+
+> CTRL + S = Save CTRL + X = exit
+
+> $ python3 -m AntiCrash
+</details>
+
 ## 🏷 Support
 
 - Follow Channel [@hdiiofficial](https://t.me/hdiiofficial) untuk info Update bot 

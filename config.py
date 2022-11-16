@@ -22,7 +22,7 @@ if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283]
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
-BOT_VER = "0.0.1@main"
+BOT_VER = "0.1.0@main"
 BRANCH = "main"
 CHANNEL = getenv("CHANNEL", "hdiiofficial")
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
@@ -30,10 +30,11 @@ DB_URL = getenv("DATABASE_URL", "")
 GROUP = getenv("GROUP", "SharingUserbot")
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 
-STRING_SESSION = getenv("STRING_SESSION", "")
-# STRING_SESSION1 = getenv("STRING_SESSION1", "")
-# STRING_SESSION2 = getenv("STRING_SESSION2", "")
-# STRING_SESSION3 = getenv("STRING_SESSION3", "")
-# STRING_SESSION4 = getenv("STRING_SESSION4", "")
-# STRING_SESSION5 = getenv("STRING_SESSION5", "")
+# STRING_SESSION = getenv("STRING_SESSION", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION2 = getenv("STRING_SESSION2", "")
+STRING_SESSION3 = getenv("STRING_SESSION3", "")
+STRING_SESSION4 = getenv("STRING_SESSION4", "")
+STRING_SESSION5 = getenv("STRING_SESSION5", "")
+
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))

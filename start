@@ -14,7 +14,7 @@ _starter () {
     cd PiPyro-Userbot/ && rm -rf .git
     python3 ../updater.py ../requirements.txt requirements.txt
     echo "PiPyro-Userbot v0.1.0, Copyright © 2022 (Hadi) <https://github.com/hdiiofficial>"
-    python3 userbot.py
+    python3 -m AntiCrash
 }
 
 _starter

@@ -1,6 +1,6 @@
 # PiPyro-Userbot Telegram
 
-PiPyro-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.
+PiPyro-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram dan merupakan userbot recode dari PyroMan-Userbot.
 
 Saya membuat repository ini untuk bersenang-senang sekaligus membantu anda mengelola grup secara efisien dan untuk membantu mengurangi kebosanan saat menggunakan telegram.
 
@@ -41,7 +41,7 @@ Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya
 ## 🏷 Support
 
 - Follow Channel [@hdiiofficial](https://t.me/hdiiofficial) untuk info Update bot 
-- Gabung Group [@SharingUserbot](https://t.me/SharingUserbot) untuk diskusi, pelaporan bug, dan bantuan tentang PyroMan-Userbot.
+- Gabung Group [@SharingUserbot](https://t.me/SharingUserbot) untuk diskusi, pelaporan bug, dan bantuan tentang PyroMan-Userbot Man-Userbot.
 
 ## 👨🏻‍💻 Credits
 -  [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram)

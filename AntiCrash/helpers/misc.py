@@ -12,7 +12,7 @@ import asyncio
 import shlex
 import socket
 from typing import Tuple
-from AntiCrash import LOGGER
+from PiPyro import LOGGER
 import dotenv
 
 HAPP = None

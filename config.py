@@ -29,8 +29,9 @@ CMD_HANDLER = getenv("CMD_HANDLER", ".")
 DB_URL = getenv("DATABASE_URL", "")
 GROUP = getenv("GROUP", "SharingUserbot")
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
+UBOT_NAME = getenv("UBOT_NAME", "PiPyro")
 
-# STRING_SESSION = getenv("STRING_SESSION", "")
+
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")

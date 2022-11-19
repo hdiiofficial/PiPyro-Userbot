@@ -11,8 +11,8 @@ from pyrogram import idle
 from uvloop import install
 
 from config import BOT_VER, CMD_HANDLER, UBOT_NAME
-from AntiCrash import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
-from AntiCrash.helpers.misc import create_botlog
+from PiPyro import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
+from PiPyro.helpers.misc import create_botlog
 from hdiiofficial.helpers.process import hadi
 
 MSG_ON = """

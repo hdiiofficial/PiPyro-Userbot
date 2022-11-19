@@ -43,7 +43,7 @@ async def create_botlog(client):
     )
     desc = "Group Log untuk PiPyro-UserBot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n✨ Powered By ~ @hdiiofficial ✨"
     try:
-        gruplog = await client.create_supergroup("Log UserBot", desc)
+        gruplog = await bot.create_supergroup("Log UserBot", desc)
         path = dotenv.find_dotenv("config.env")
         dotenv.set_key(path, "BOTLOG_CHATID", gruplog.id)
     except Exception:

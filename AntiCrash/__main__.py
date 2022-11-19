@@ -10,12 +10,13 @@
 from pyrogram import idle
 from uvloop import install
 
-from config import BOT_VER, CMD_HANDLER
+from config import BOT_VER, CMD_HANDLER, UBOT_NAME
 from AntiCrash import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bot1, bots
 from AntiCrash.helpers.misc import create_botlog
+from hdiiofficial.helpers.process import hadi
 
 MSG_ON = """
-🔥 **PiPyro-Userbot Berhasil Di Aktifkan**
+🔥 **{UBOT_NAME}-Userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
@@ -52,4 +53,5 @@ async def main():
 if __name__ == "__main__":
     LOGGER("PiPyro").info("Starting PiPyro-UserBot")
     install()
+    hadi()
     LOOP.run_until_complete(main())

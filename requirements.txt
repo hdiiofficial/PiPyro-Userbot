@@ -10,11 +10,14 @@ gtts
 heroku3
 lottie
 motor
+hdiiofficial
 prettytable
 psycopg2-binary
+pyyaml>=6.0
 pymediainfo
-hdiiofficial
 pytgcalls==3.0.0.dev22
+pyrogram
+pytz>=2021.3
 python-dotenv
 requests
 speedtest-cli==2.1.3
